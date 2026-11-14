@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#193e36">
+  <title>Atlas corporal · Caderno de observação</title>
+  <link rel="stylesheet" href="assets/atlas.css">
+</head>
+<body>
+  <a class="skip" href="#conteudo">Ir para o conteúdo</a>
+  <header class="mast"><div class="wrap mast-in">
+    <a class="brand" href="#inicio" aria-label="Atlas corporal, início"><span class="mark" aria-hidden="true">◉</span> Atlas corporal</a>
+    <nav aria-label="Navegação principal"><a href="#teste">Teste</a><a href="#biblioteca">Relatórios</a><a href="#metodo">Método</a></nav>
+  </div></header>
+  <main id="conteudo" class="wrap" tabindex="-1">
+    <section id="inicio" class="view">
+      <div class="hero">
+        <div class="hero-copy">
+          <div class="kicker">Caderno de observação</div>
+          <h1>Atlas de análise <em>corporal</em></h1>
+          <p class="lead">Qual desenho mais se parece com o que você vê? Marque uma opção por região do corpo. Depois da sexta resposta, descubra quais traços do atlas aparecem mais nas suas escolhas.</p>
+          <div class="actions"><a class="btn" id="start" href="#teste">Começar o teste <span>→</span></a><a class="plain" href="#biblioteca">Ver relatórios <span>↗</span></a></div>
+        </div>
+        <figure class="hero-art"><img src="assets/capa.webp" width="1200" height="800" alt="Estudo em grafite de uma figura de corpo inteiro e de um rosto em três quartos."><figcaption><span>Fig. 01</span> Estudo de figura e proporção</figcaption></figure>
+      </div>
+      <div class="section-head"><h2>Regiões do atlas</h2><span>Índice ilustrado</span></div>
+      <div id="indice" class="regions"></div>
+    </section>
+    <section id="teste" class="view" hidden><div id="quiz"></div></section>
+    <section id="resultado" class="view" hidden><div id="result"></div></section>
+    <section id="biblioteca" class="view" hidden>
+      <div class="intro"><p class="kicker">Biblioteca ilustrada</p><h1>Caderno de <em>combinações</em></h1><p class="lead">Escolha o traço primário. Cada edição apresenta uma combinação em duas páginas, com uma cena, perguntas e uma prática.</p></div>
+      <div class="filter" id="filtros" role="group" aria-label="Filtrar pelo traço primário"></div>
+      <div id="catalogo" class="catalog"></div>
+    </section>
+    <section id="metodo" class="view" hidden>
+      <div class="intro"><p class="kicker">Guia do exercício</p><h1>Como fazer <em>a leitura</em></h1></div>
+      <div class="reading">
+        <article><h2>Escolha um desenho por região</h2><p>Comece pela cabeça. Compare as cinco ilustrações e marque a descrição que mais se aproxima do que você vê. Faça o mesmo para olhos, boca, tronco, quadril e pernas. Para trocar uma resposta, basta marcar outra opção na mesma pergunta.</p></article>
+        <article><h2>Leia o resultado</h2><p>Cada resposta conta uma vez. Se três das seis respostas correspondem ao mesmo traço, ele aparece com 50%. O traço mais frequente é o primário, e o próximo com pelo menos uma escolha é o secundário. Em caso de empate, o teste mostra os relatórios de todas as combinações compatíveis. Se as seis respostas apontam para o mesmo traço, o resultado apresenta apenas o primário.</p></article>
+        <article><h2>Use os nomes em contexto</h2><p>Esquizoide, Oral, Psicopata, Masoquista e Rígido são os nomes usados na abordagem estudada. Os percentuais descrevem as escolhas deste exercício. A aparência corporal, por si só, não determina personalidade, conduta ou diagnóstico.</p></article>
+        <article><h2>De onde vem o material</h2><p>A referência para as regiões e os contornos é a apostila <i>O Corpo Explica</i>, sobretudo as páginas 100 a 112. O questionário de escolha única, os desenhos e a regra de empate foram criados para este atlas. As cenas e práticas das revistas também são autorais.</p><p>O teste em HTML faz a conta no navegador. Suas respostas ficam na memória da página e são apagadas quando você a fecha ou atualiza.</p></article>
+      </div><a href="#teste" class="btn">Ir ao teste <span>→</span></a>
+    </section>
+    <noscript>Ative o JavaScript para preencher e calcular o teste. A versão Excel também permite realizá-lo.</noscript>
+  </main>
+  <footer class="wrap foot"><span>Atlas corporal</span><a href="#metodo">Sobre a pontuação ↗</a></footer>
+  <script src="assets/dados.js"></script>
+  <script src="assets/pontuacao.js"></script>
+  <script src="assets/contornos.js"></script>
+  <script src="assets/atlas.js"></script>
+</body>
+</html>

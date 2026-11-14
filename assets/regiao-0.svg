@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="176" height="176" viewBox="0 0 100 100">
+      <style>.accent{stroke:#B45B40;stroke-width:2.6;fill:none}</style>
+      <rect x="2" y="2" width="96" height="96" rx="22" fill="#F4F1E6"/>
+      <circle cx="50" cy="50" r="38" fill="#DDE9DE"/>
+      <path d="M8 50h84M50 8v84" fill="none" stroke="#B6CDC0" stroke-width=".7" stroke-dasharray="2 3"/>
+      <g stroke="#284B47" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none"><path fill="#ECD9BF" d="M61 23C45 17 28 23 22 38c-5 10-3 24 4 30l1 12-13 7 1 7h64l-1-9-16-8 1-11c6 0 10-4 10-10v-5l5-1-7-12c0-8-2-12-10-15Z"/>
+    <path d="M25 43c-2-7 3-15 9-19 9-7 24-7 33 0M62 38l7 3m-5 5 3 0m3 13-5 1m-11 5c4 2 8 2 10 0m-39 4 5 5m7-27c-6-3-10 2-7 8 2 5 5 6 8 5m-6-8c3-2 4 1 3 4m-6 20c7 6 11 7 15 9m15-8-5 11"/>
+    <path class="accent" d="M19 35q9-18 28-19t26 13"/></g>
+    </svg>

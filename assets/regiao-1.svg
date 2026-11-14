@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="176" height="176" viewBox="0 0 100 100">
+      <style>.accent{stroke:#B45B40;stroke-width:2.6;fill:none}</style>
+      <rect x="2" y="2" width="96" height="96" rx="22" fill="#F4F1E6"/>
+      <circle cx="50" cy="50" r="38" fill="#DDE9DE"/>
+      <path d="M8 50h84M50 8v84" fill="none" stroke="#B6CDC0" stroke-width=".7" stroke-dasharray="2 3"/>
+      <g stroke="#284B47" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none"><path fill="#ECD9BF" d="M10 55c13-15 26-21 39-20 17 1 28 10 39 21-13 8-25 15-39 15S21 65 10 55Z"/>
+    <path fill="#FAF7EF" d="M14 55c14-10 23-15 34-15s25 5 36 15c-12 7-23 13-35 13S24 61 14 55Z"/>
+    <path fill="#6B998C" d="M39 42c-4 6-4 17 2 21 6 5 14 4 18-3 4-5 3-12-1-17-7-3-12-3-19-1Z"/><circle cx="49" cy="52" r="5" fill="#234844"/><circle cx="51" cy="49" r="2" stroke="none" fill="#fff"/>
+    <path d="M12 38c14-11 25-15 37-14 14 0 27 5 36 13m-68 34c13 8 28 12 42 8m18-15 6 3m-62-6-5 5"/>
+    <path class="accent" d="M16 35c13-10 24-14 35-13s24 6 31 11"/></g>
+    </svg>
